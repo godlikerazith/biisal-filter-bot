@@ -18,10 +18,10 @@ API_HASH = environ.get('API_HASH', '8742e49f7681c71180fed37d4736fc3b')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7748283772:AAFTPCpvxKGEww_8BLJ5dRPbgCBHDoQZhJs')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1918079773').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/biisal")
+USERNAME = environ.get('USERNAME', "https://telegram.me/GodLike_razith")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002413880375'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+4RB2-U2o9yE4ZmQ9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002294863108').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002294863108 -1001234567898').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rrazith7:razith2006@cluster0.blltj.mongodb.net/")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
@@ -30,7 +30,7 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002408948262'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/ccb9db43e62a2e524928e.jpg')
 START_IMG = environ.get('START_IMG', 'https://vault.pictures/media/images/44/3f/15/443f15e797b941c989af2dfb63a19cd7.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002337485890'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS',''))
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002322134400'))
 URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
